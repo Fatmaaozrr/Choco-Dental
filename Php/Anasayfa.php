@@ -8,13 +8,12 @@
 </head>
 <header>
     <nav class="menu">
-        <img class="logo" src="../Resimler/KidsLogo.png" alt="ChocoDental" />
+        <img class="logo" src="../Resimler/KidsLoogo.png" alt="ChocoDental" style="float:'left' margin-left:'5%'"/>
         <ul>
             <li><a href="#">ANA SAYFA</a></li>
             <li><a href="#">HAKKIMIZDA</a></li>
             <li><a href="#">TEDAVİLER</a></li>
             <li><a href="#">KLİNİKLER</a></li>
-            <li><a href="#">OOPS</a></li>
             <li><a href="#">İLETİŞİM</a></li>
             <li><button class="onbutton">Online Randevu</button></li>
         </ul>
@@ -55,60 +54,110 @@
 <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
+<div class="container" id="circleContainer">
 <div class="seksek">
-        <div class="row">
-            <div class="square end">1</div>
-            <div class="square">2</div>
+    <div class="row">
+        <div class="square end sol" data-aciklama="Çocuk dostu, renkli ve eğlenceli bir atmosferle, diş tedavilerini keyifli hale getiriyoruz.">
+            Rahat ve Eğlenceli Ortam
         </div>
-        <div class="row">
-            <div class="square">3</div>
-        </div>
-        <div class="row">
-            <div class="square">4</div>
-            <div class="square">5</div>
-        </div>
-        <div class="row">
-            <div class="square">6</div>
-        </div>
-        <div class="row">
-            <div class="square">7</div>
-        </div>
-        <div class="row">
-            <div class="square start">8</div>
+        <div class="square sag" data-aciklama="Diş hekimlerimiz, çocuklara uygun dil ve güven verici tavırlarla onlara tedavi sürecini anlatır.">
+            Çocuklara Uygun Yaklaşım
         </div>
     </div>
-    
-    <footer>
-        <div class="footer-content">
-            <h2>Bize Ulaşın!</h2>
-            <p>Sosyal medya hesaplarımızdan bizi takip edebilirsiniz.</p>
-            <div class="social-icons">
-                <a href="#" src="../Resimler/facebook.png"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" src="../Resimler/twitter.png"><i class="fab fa-twitter"></i></a>
-                <a href="#" src="../Resimler/instagram.png"><i class="fab fa-instagram"></i></a>
-                <a href="#" src="../Resimler/linkedin.png"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" src="../Resimler/youtube.png"><i class="fab fa-youtube"></i></a>
-            </div>
+    <div class="row">
+        <div class="square sol" data-aciklama="Çocuklara diş sağlığına yönelik eğitici içerikler ve alışkanlıklar kazandırıyoruz.">
+            Eğitim ve Farkındalık
         </div>
+    </div>
+    <div class="row">
+        <div class="square sol" data-aciklama="Çocukların rahat hissetmesini sağlayacak, ağrısız ve korkusuz bir tedavi deneyimi sunuyoruz.">
+            Ağrısız ve Stressiz Tedavi
+        </div>
+        <div class="square sag" data-aciklama="Eğlenceli hazırlıklarla çocukların dişçi korkusunu yenmelerine yardımcı oluyoruz.">
+            Korkusuz Dişçi Ziyareti
+        </div>
+    </div>
+    <div class="row">
+        <div class="square sag" data-aciklama="Ailelere çocuklarının diş sağlığıyla ilgili düzenli bilgiler ve tavsiyeler sunuyoruz.">
+            Ebeveyn Bilgilendirmesi
+        </div>
+    </div>
+    <div class="row">
+        <div class="square sol" data-aciklama="Çocukların düzenli diş muayeneleriyle sorunları erkenden önlüyoruz.">
+            Erken Yaşta Muayene
+        </div>
+    </div>
+    <div class="row">
+        <div class="square start sag" data-aciklama="Çocukları motive etmek için tedavi sonunda küçük ödüller veriyoruz.">
+            Ödüllendirme Sistemi
+        </div>
+</div>
 
-        <!-- Bulutlar -->
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-1">
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-2">
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-3">
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-4">
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-5">
-        <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-6">
+</div>
 
-        <!-- Güneş -->
-        <img src="../Resimler/sun.png" alt="Güneş" class="sun">
 
-        <!-- Kuşlar -->
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-1">
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-2">
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-3">
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-4">
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-5">
-        <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-6">
+
+
+<!-- Soldan çıkacak doktor ve balon -->
+<div class="doktor-container sol">
+    <img src="../Resimler/womandentist1.png" alt="Doktor" class="doktor-resim">
+    <div class="balon">Açıklama</div>
+</div>
+
+<!-- Sağdan çıkacak doktor ve balon -->
+<div class="doktor-container sag">
+    <img src="../Resimler/kidswoman.png" alt="Doktor" class="doktor-resim">
+    <div class="balon">Açıklama</div>
+</div>
+
+<!-- Soldan çıkacak doktor ve balon -->
+<div class="doktor-container sol">
+    <img src="doktor.png" alt="Doktor" class="doktor-resim">
+    <div class="balon">Açıklama</div>
+</div>
+
+<!-- Sağdan çıkacak doktor ve balon -->
+<div class="doktor-container sag">
+    <img src="doktor.png" alt="Doktor" class="doktor-resim">
+    <div class="balon">Açıklama</div>
+</div>
+
+</div>
+
+    <footer>
+        
+    <div class="footer-content">
+        <h2>Bize Ulaşın!</h2>
+        <p>Sosyal medya hesaplarımızdan bizi takip edebilirsiniz.</p>
+    </div>
+
+    <div class="social-icons">
+        <a href="#" target="_blank"><img src="..\Resimler\fsocial.png" alt="Facebook" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\tsocial.png" alt="Twitter" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\isocial.png" alt="Instagram" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\lsocial.png" alt="LinkedIn" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\ysocial.png" alt="YouTube" width="50px"></a>
+    </div>
+
+    <!-- Bulutlar -->
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-1">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-2">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-3">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-4">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-5">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-6">
+
+    <!-- Güneş -->
+    <img src="../Resimler/sun.png" alt="Güneş" class="sun">
+
+    <!-- Kuşlar -->
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-1">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-2">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-3">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-4">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-5">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-6">
+
     </footer>
 
 <script src="../Css/script.js"></script>
