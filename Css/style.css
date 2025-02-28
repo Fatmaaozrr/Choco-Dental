@@ -498,3 +498,194 @@ footer {
         transform: translateX(100vw);
     }
 }
+
+/*Hakkimizda.html Sayfası*/
+/* Kart konteyneri */
+.kart-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Kart stil ayarları */
+.kart {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px; /* 3D efekti için perspektif */
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+/* Kartın ön ve arka yüzü */
+.kart-on, .kart-arka {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Arka yüzü gizle */
+    transition: transform 0.6s ease; /* Dönüş efekti */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Kartın ön yüzü */
+.kart-on {
+    background-color: #ff6f61;
+    color: white;
+}
+
+/* Kartın arka yüzü */
+.kart-arka {
+    background-color: #94acff;
+    color: white;
+    transform: rotateY(180deg); /* Başlangıçta arka yüzü çevir */
+}
+
+/* Fare ile üzerine gelindiğinde dönme efekti */
+.kart:hover .kart-on {
+    transform: rotateY(180deg);
+}
+
+.kart:hover .kart-arka {
+    transform: rotateY(0deg);
+}
+
+/* Resim stil ayarları */
+.kart img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Başlık stil ayarları */
+.kart h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Metin stil ayarları */
+.kart p {
+    font-size: 14px;
+}
+
+/* Hakkımızda bölümü stil ayarları */
+.hakkimizda {
+    background-color: #fff; /* Açık mavi arka plan */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hakkimizda-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hakkimizda h2 {
+    font-size: 36px;
+    color: #ff6f61; /* Eğlenceli bir turuncu renk */
+    margin-bottom: 20px;
+}
+
+.hakkimizda .aciklama {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* Ekip bölümü stil ayarları */
+.ekip {
+    margin-bottom: 40px;
+}
+
+.ekip h3 {
+    font-size: 28px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 20px;
+}
+
+/* Misyon ve Vizyon bölümü stil ayarları */
+.misyon-vizyon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.misyon, .vizyon {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    max-width: 400px;
+}
+
+.misyon h3, .vizyon h3 {
+    font-size: 24px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 15px;
+}
+
+.misyon p, .vizyon p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Hizmetler bölümü stil ayarları */
+.hizmetler {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hizmetler :hover{
+    transform: translateY(-10px); /* Fare ile üzerine gelindiğinde hafifçe yukarı kalkar */
+}
+
+.hizmetler h3 {
+    font-size: 24px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 20px;
+}
+
+.hizmetler ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.hizmetler ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.hizmetler ul li::before {
+    content: "•";
+    color: #ff6f61; /* Turuncu renk */
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.misyon-vizyon :hover{
+    transform: translateY(-10px); /* Fare ile üzerine gelindiğinde hafifçe yukarı kalkar */
+}
+

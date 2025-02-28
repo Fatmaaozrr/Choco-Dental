@@ -2,130 +2,263 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>CHILDENT HAKKIMIZDA</title>
-    <link rel="stylesheet" type="text/css" href="../Css/TasarimSayfa.css" />
+    <title>CHILDENT Ağız ve Diş Sağlığı Merkezi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Css/style.css" />
 </head>
-<body id="body">
+<header>
+    <nav class="menu">
+        <img class="logo" src="../Resimler/KidsLoogo.png" alt="ChocoDental" style="float:'left' margin-left:'5%'"/>
+        <ul>
+            <li><a href="../Php/Anasayfa.php">ANA SAYFA</a></li>
+            <li><a href="../Php/Hakkimizda.php">HAKKIMIZDA</a></li>
+            <li><a href="#">TEDAVİLER</a></li>
+            <li><a href="#">KLİNİKLER</a></li>
+            <li><a href="#">İLETİŞİM</a></li>
+            <li><button class="onbutton">Online Randevu</button></li>
+        </ul>
+    </nav>
+</header>
+<body>
+<section class="hakkimizda">
+    <div class="hakkimizda-container">
+        <h2>Hakkımızda</h2>
+        <p class="aciklama">
+            Çocukların diş sağlığı ve gülüşleri bizim için çok önemli! Renkli ve eğlenceli bir ortamda, çocuklarımıza ağız ve diş sağlığı konusunda en iyi hizmeti sunuyoruz. Amacımız, çocukların diş hekimi korkusunu yenmek ve onlara sağlıklı gülüşler kazandırmak.
+        </p>
 
-    <header>
-        <div id="menu">
-            <img src="../Resimler/NewLogo.png" class="logo" width="500" />
+        <div class="ekip">
+            <h3>Ekibimiz</h3>
+            <div class="ekip-uyeleri">
+            <div class="kart-container">
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 1">
+            <h3>Başlık 1</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 2">
+            <h3>Başlık 2</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 3">
+            <h3>Başlık 3</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 4">
+            <h3>Başlık 4</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 5">
+            <h3>Başlık 5</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+</div>
+
+<div class="kart-container">
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 1">
+            <h3>Başlık 1</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 2">
+            <h3>Başlık 2</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 3">
+            <h3>Başlık 3</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 4">
+            <h3>Başlık 4</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 5">
+            <h3>Başlık 5</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+</div>
+
+<div class="kart-container">
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 1">
+            <h3>Başlık 1</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 2">
+            <h3>Başlık 2</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 3">
+            <h3>Başlık 3</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 4">
+            <h3>Başlık 4</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="https://via.placeholder.com/150" alt="Resim 5">
+            <h3>Başlık 5</h3>
+            <p>Bu bir açıklama metnidir.</p>
+        </div>
+        <div class="kart-arka">
+            <p>Arka taraf içeriği burada yer alır.</p>
+        </div>
+    </div>
+</div>
+                
+            </div>
+        </div>
+
+        <div class="misyon-vizyon">
+            <div class="misyon">
+                <h3>Misyonumuz</h3>
+                <p>
+                    Çocukların diş sağlığını korumak, onlara eğlenceli ve stressiz bir diş hekimi deneyimi yaşatmak ve sağlıklı gülüşler kazandırmak.
+                </p>
+            </div>
+            <div class="vizyon">
+                <h3>Vizyonumuz</h3>
+                <p>
+                    Çocukların diş hekimi korkusunu yenerek, onlara ömür boyu sürecek bir diş sağlığı bilinci kazandırmak.
+                </p>
+            </div>
+        </div>
+
+        <div class="hizmetler">
+            <h3>Hizmetlerimiz</h3>
             <ul>
-                <li><div><a href="Anasayfa.php"><b>ANASAYFA</b></a></div></li>
-                <li><div><a href="Hakkimizda.php"><b>HAKKIMIZDA</b></a></div></li>
-                <li><div><a href="Tedavilerimiz.php"><b>TEDAVİLERİMİZ</b></a></div></li>
-                <li><div><a href="Hekimlerimiz.php"><b>HEKİMLERİMİZ</b></a></div></li>
-                <li><div><a href="Iletisim.php"><b>İLETİŞİM</b></a></div></li>
-                <li><div><a href="randevu/index.php"><b>Giriş / Kayıt</b></a></div></li>
+                <li>Çocuk Diş Muayenesi</li>
+                <li>Diş Çürüğü Önleme (Fissür Örtücü ve Florür Uygulaması)</li>
+                <li>Süt Dişi Dolguları</li>
+                <li>Çocuklarda Ortodonti (Erken Tedavi)</li>
+                <li>Diş Travmaları Tedavisi</li>
+                <li>Çocuklarda Diş Beyazlatma</li>
             </ul>
         </div>
-    </header>
+    </div>
+</section>
 
-    <div class="ortakisim">
-        <br /><br /><br /><br /><br /><br /><br />
 
-        <div>
-            <div>
-                <div>
-                    <img src="../Resimler/doktorlar.jpg" style="width:30%;float:left;margin-left:14%;border-radius:2%" />
-                </div>
-                <div style="float:right;margin-right:15%;width:40%;color:wh">
-                    <center><h1>HAKKIMIZDA</h1></center>
-                    <br />
-                    <p>Childent Ağız ve Diş Sağlığı Polikliniği 2008 yılında kurulmuş ve Beşiktaş ilçesine’de hizmet vermektedir. Sağlık Turizm belgesine sahip olan Childent tam 14+ yıldır yerli ve yabancı binlerce hastaya hizmet vermenin gururunu yaşamaktadır.</p>
-                    <br />
-                    <p>Uluslararası standartlardaki sağlık hizmetini, güçlü teknolojik alt yapısıyla sunan Cedent’te başta implantoloji ve gülüş estetiği olmak üzere ağız ve diş sağlığına dair tüm branşlarda hizmet alabilirsiniz. 7 gün 24 saat yani kesintisiz hizmet veren CeDent’te alanında uzman hasta koordinatörleri ve doktorların yanı sıra hasta koçları görev almakta. Sekiz diş hekimi, 12 asistan ve 5 hasta danışmanı olmak üzere 25 kişilik bir kadroya sahip polikliniğimiz gelişen medikal teknolojileri sürekli takip ederek güncel yeni tanı ve tedavileri öncelemektedir.</p>
-                    <br />
-                    <p>Şubelerimiz :</p>
-                    <br />
-                    <p>
-                        <center>
-                            <ul>
-                                <li>- Beşiktaş Şubesi</li>
-                                <li>- Nişsantaşı Şubesi</li>
-                                <li>- Üsküdar Şubesi</li>
-                                <li>- Bahçeşehir Şubesi</li>
-                                <li>- Avcılar Şubesi</li>
-                            </ul>
-                        </center>
-                    </p>
-                    <br />
-                    <center><h1>MİSYONUMUZ</h1></center>
-                    <br />
-                    <p>Childent etik ilkelerden ödün vermeden; güncel tıbbi yaklaşımları güvenilir ve en ileri koruyucu sağlık hizmetlerini topluma kazandırmayı görev edinmektedir.</p>
-                    <br />
-                    <center><h1>VİZYONUMUZ</h1></center>
-                    <br />
-                    <center>
-                        <br />
-                        <ul>
-                            <li>- İnsani değerleri öncelemek.</li>
-                            <li>- Hasta güvenliğine önem vermek.</li>
-                            <li>- En ileri teknolojileri kullanmak.</li>
-                            <li>- Çalışanların gelişimini amaç edinmek.</li>
-                            <li>- Modern ve güncel yaklaşımları benimsemek.</li>
-                            <li>- Şeffaf olmak.</li>
-                            <li>- Bilimsel çalışmaları her zaman desteklemek.</li>
-                            <li>- Hasta haklarını öncelemek.</li>
-                        </ul>
-                    </center>
-                </div>
-            </div>
-        </div>
+<footer>
+        
+    <div class="footer-content">
+        <h2>Bize Ulaşın!</h2>
+        <p>Sosyal medya hesaplarımızdan bizi takip edebilirsiniz.</p>
     </div>
 
-
-    <div style="margin-top:45%;">
-        <img src="../Resimler/yeniozet.png" style="width:100%" />
+    <div class="social-icons">
+        <a href="#" target="_blank"><img src="..\Resimler\fsocial.png" alt="Facebook" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\tsocial.png" alt="Twitter" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\isocial.png" alt="Instagram" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\lsocial.png" alt="LinkedIn" width="50px"></a>
+        <a href="#" target="_blank"><img src="..\Resimler\ysocial.png" alt="YouTube" width="50px"></a>
     </div>
 
+    <!-- Bulutlar -->
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-1">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-2">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-3">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-4">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-5">
+    <img src="../Resimler/cloud.png" alt="Bulut" class="cloud cloud-6">
 
+    <!-- Güneş -->
+    <img src="../Resimler/sun.png" alt="Güneş" class="sun">
 
-    <footer class="footer" style="margin-top:5%">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>MİNİ MENÜ</h4>
-                    <ul>
-                        <li><a href="Anasayfa.php">ANASAYFA</a></li>
-                        <li><a href="Hakkimizda.php">HAKKIMIZDA</a></li>
-                        <li><a href="Tedavilerimiz.php">TEDAVİLERİMİZ</a></li>
-                        <li><a href="Hekimlerimiz.php">HEKİMLERİMİZ</a></li>
-                        <li><a href="Iletisim.php">İLETİŞİM</a></li>
+    <!-- Kuşlar -->
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-1">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-2">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-3">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-4">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-5">
+    <img src="../Resimler/bird.png" alt="Kuş" class="bird bird-6">
 
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>ŞUBELERİMİZ</h4>
-                    <ul>
-                        <li><a href="#">BEŞİKTAŞ ŞUBESİ</a></li>
-                        <li><a href="#">NİŞANTAŞI ŞUBESİ</a></li>
-                        <li><a href="#">ÜSKÜDAR ŞUBESİ</a></li>
-                        <li><a href="#">BAHÇEŞEHİR ŞUBESİ</a></li>
-                        <li><a href="#">AVCILAR ŞUBESİ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>ÇAĞRI MERKEZİ</h4>
-                    <ul>
-                        <li><a href="#">TEL : +90 123 456 7890</a></li>
-                        <li><a href="#">TEL2 : +212 569 80 74</a></li>
-                        <li><a href="#">E-MAİL : childent@info.tr</a></li>
-                        <li><a href="#">SAĞLIKLA KALIN</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>BİZİ TAKİP EDİN</h4>
-                    <div class="social-links">
-                        <a href="www.facebook.com"><i class="fab fa-facebook-f"></i>F</a>
-                        <a href="www.twitter.com"><i class="fab fa-twitter"></i>T</a>
-                        <a href="www.instagram.com"><i class="fab fa-instagram">İ</i></a>
-                        <a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+</footer>
+
+<script src="../Css/script.js"></script>
 
 </body>
 </html>

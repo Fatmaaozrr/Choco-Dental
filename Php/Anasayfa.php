@@ -10,8 +10,8 @@
     <nav class="menu">
         <img class="logo" src="../Resimler/KidsLoogo.png" alt="ChocoDental" style="float:'left' margin-left:'5%'"/>
         <ul>
-            <li><a href="#">ANA SAYFA</a></li>
-            <li><a href="#">HAKKIMIZDA</a></li>
+            <li><a href="../Php/Anasayfa.php">ANA SAYFA</a></li>
+            <li><a href="../Php/Hakkimizda.php">HAKKIMIZDA</a></li>
             <li><a href="#">TEDAVİLER</a></li>
             <li><a href="#">KLİNİKLER</a></li>
             <li><a href="#">İLETİŞİM</a></li>
