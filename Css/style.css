@@ -1,9 +1,8 @@
 /* Genel stil ayarları */
-.body {
+body {
     font-family: 'Open Sans Condensed', sans-serif;  /* Yazı tipi ayarları */
     margin: 0;
-    overflow: hidden;
-    background-color: white;
+    background-color: #fff !important;
 }
 
 .container {
@@ -30,7 +29,7 @@
     display: flex;  /* Flexbox kullanılarak esnek düzen */
     align-items: center;  /* Menü elemanlarını dikeyde ortalar */
     justify-content: space-between;  /* Logo ve menü elemanlarını uçlara yerleştirir */
-    background-color: #fff;  /* Menü arka plan rengi */
+    background-color: transparent;  /* Menü arka plan rengi */
     padding: 10px 0;  /* Menü öğeleri arasındaki boşluk */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);  /* Menüye gölge efekti ekler */
     width: auto;  /* Menü genişliği otomatik */
@@ -501,6 +500,7 @@ footer {
 
 /*Hakkimizda.html Sayfası*/
 /* Kart konteyneri */
+
 .kart-container {
     display: flex;
     justify-content: center;
@@ -577,7 +577,7 @@ footer {
 
 /* Hakkımızda bölümü stil ayarları */
 .hakkimizda {
-    background-color: #fff; /* Beyaz arka plan */
+    background-color: transparent; /* Arka plan şeffaf */
     padding: 50px 20px;
     text-align: center;
 }
@@ -692,7 +692,7 @@ footer {
 /*Tedavilerimiz.php*/
 /* Tedaviler bölümü stil ayarları */
 .tedaviler {
-    background-color: #fff; /* Beyaz arka plan */
+    background-color: transparent; /* Arka plan şeffaf */
     padding: 50px 20px;
     text-align: center;
 }
@@ -726,10 +726,10 @@ footer {
 }
 
 .karttedavi {
-    background-color: #ff6f61;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     width: 300px;
     transition: transform 0.3s ease;
 }
@@ -747,13 +747,13 @@ footer {
 
 .karttedavi h3 {
     font-size: 24px;
-    color: #fff;
+    color: black;
     margin-bottom: 15px;
 }
 
 .karttedavi p {
     font-size: 16px;
-    color: #fff;
+    color: black;
     margin-bottom: 15px;
     line-height: 1.6;
 }
@@ -766,7 +766,7 @@ footer {
 
 .karttedavi ul li {
     font-size: 14px;
-    color: #fff;
+    color: black;
     margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
@@ -784,7 +784,7 @@ footer {
 /*Kliniklerimiz.php Sayfası*/
 /* Klinikler bölümü stil ayarları */
 .klinikler {
-    background-color: #fff; /* Beyaz arka plan */
+    background-color: transparent; /* Arka plan şeffaf */
     padding: 50px 20px;
     text-align: center;
 }
@@ -819,7 +819,7 @@ footer {
 .klinik {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     width: 100%;
     max-width: 400px;
@@ -873,4 +873,142 @@ footer {
 
 .btn:hover {
     background-color: #e65a50; /* Koyu turuncu renk */
+}
+
+/*iletisim.php Sayfası*/
+/* İletişim bölümü stil ayarları */
+.iletisim {
+    background-color: transparent; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.iletisim-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.iletisim h2 {
+    font-size: 36px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 20px;
+}
+
+.iletisim .aciklama {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* İletişim bilgileri stil ayarları */
+.iletisim-bilgileri {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.bilgi {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.bilgi:hover {
+    transform: translateY(-10px); /* Fare ile üzerine gelindiğinde hafifçe yukarı kalkar */
+}
+
+.bilgi i {
+    font-size: 24px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 15px;
+}
+
+.bilgi h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bilgi p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* İletişim formu stil ayarları */
+.iletisim-formu {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.iletisim-formu h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-grup {
+    margin-bottom: 15px;
+}
+
+.form-grup label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-grup input, .form-grup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-grup textarea {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6f61; /* Turuncu renk */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e65a50; /* Koyu turuncu renk */
+}
+
+/* Harita stil ayarları */
+.harita {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.harita h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
 }
