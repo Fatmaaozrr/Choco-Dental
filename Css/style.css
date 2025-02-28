@@ -542,7 +542,7 @@ footer {
 
 /* Kartın arka yüzü */
 .kart-arka {
-    background-color: #94acff;
+    background-color: #269af2;
     color: white;
     transform: rotateY(180deg); /* Başlangıçta arka yüzü çevir */
 }
@@ -726,7 +726,7 @@ footer {
 }
 
 .karttedavi {
-    background-color: #269af2;
+    background-color: #ff6f61;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -747,7 +747,7 @@ footer {
 
 .karttedavi h3 {
     font-size: 24px;
-    color: #ffdb2d;
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -766,7 +766,7 @@ footer {
 
 .karttedavi ul li {
     font-size: 14px;
-    color: #333;
+    color: #fff;
     margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
@@ -781,3 +781,96 @@ footer {
     top: -2px;
 }
 
+/*Kliniklerimiz.php Sayfası*/
+/* Klinikler bölümü stil ayarları */
+.klinikler {
+    background-color: #fff; /* Beyaz arka plan */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.klinikler-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.klinikler h2 {
+    font-size: 36px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 20px;
+}
+
+.klinikler .aciklama {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* Klinik listesi stil ayarları */
+.klinik-listesi {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.klinik {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.klinik:hover {
+    transform: translateY(-10px); /* Fare ile üzerine gelindiğinde hafifçe yukarı kalkar */
+}
+
+.klinik img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.klinik-bilgileri {
+    padding: 20px;
+    text-align: left;
+}
+
+.klinik-bilgileri h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.klinik-bilgileri p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.klinik-bilgileri i {
+    margin-right: 10px;
+    color: #ff6f61; /* Turuncu renk */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6f61; /* Turuncu renk */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e65a50; /* Koyu turuncu renk */
+}

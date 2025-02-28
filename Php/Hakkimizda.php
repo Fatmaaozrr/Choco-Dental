@@ -13,7 +13,7 @@
             <li><a href="../Php/Anasayfa.php">ANA SAYFA</a></li>
             <li><a href="../Php/Hakkimizda.php">HAKKIMIZDA</a></li>
             <li><a href="../Php/Tedavilerimiz.php">TEDAVİLER</a></li>
-            <li><a href="#">KLİNİKLER</a></li>
+            <li><a href="../Php/Klinikler.php">KLİNİKLER</a></li>
             <li><a href="#">İLETİŞİM</a></li>
             <li><button class="onbutton">Online Randevu</button></li>
         </ul>
