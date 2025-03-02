@@ -32,7 +32,7 @@
             <div class="klinik">
                 <img src="../Resimler/16.jpg" alt="Klinik 1">
                 <div class="klinik-bilgileri">
-                    <h3>İstnabul Merkez Klinik</h3>
+                    <h3>İstanbul Merkez Klinik</h3>
                     <p class="adres">
                         <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, İstanbul
                     </p>

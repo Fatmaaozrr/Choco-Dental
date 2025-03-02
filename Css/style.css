@@ -1078,3 +1078,27 @@ footer {
 .btn:hover {
     background-color: #e65a50; /* Koyu turuncu renk */
 }
+
+/*Randevu Uyarı*/
+/* Mesaj kutucuğu stil ayarları */
+/* Mesaj kutucuğu stil ayarları */
+.mesaj {
+    padding: 15px;
+    margin-top: 20px; /* Butonun altında boşluk bırak */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block; /* Kutucuğu görünür yap */
+}
+
+.basari {
+    background-color: #d4edda; /* Yeşil arka plan */
+    color: #155724; /* Koyu yeşil metin */
+    border: 1px solid #c3e6cb;
+}
+
+.hata {
+    background-color: #f8d7da; /* Kırmızı arka plan */
+    color: #721c24; /* Koyu kırmızı metin */
+    border: 1px solid #f5c6cb;
+}

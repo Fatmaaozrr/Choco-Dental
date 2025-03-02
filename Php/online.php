@@ -1,3 +1,53 @@
+<?php
+// Mesaj değişkenlerini başlat
+$mesaj = "";
+$mesaj_tipi = "";
+
+// Form gönderildiğinde çalışacak PHP kodu
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Veritabanı bağlantısı
+    $servername = "localhost";
+    $username = "root"; // Varsayılan kullanıcı adı
+    $password = ""; // Varsayılan şifre
+    $dbname = "cocuk_dis_klinigi";
+
+    // Bağlantı oluştur
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Bağlantıyı kontrol et
+    if ($conn->connect_error) {
+        die("Bağlantı hatası: " . $conn->connect_error);
+    }
+
+    // Form verilerini al
+    $ad = $_POST['ad'];
+    $soyad = $_POST['soyad'];
+    $email = $_POST['email'];
+    $telefon = $_POST['telefon'];
+    $tarih = $_POST['tarih'];
+    $saat = $_POST['saat'];
+    $klinik = $_POST['klinik'];
+    $doktor = $_POST['doktor'];
+    $mesaj_form = $_POST['mesaj'];
+
+    // SQL sorgusu
+    $sql = "INSERT INTO randevular (ad, soyad, email, telefon, tarih, saat, klinik, doktor, mesaj)
+            VALUES ('$ad', '$soyad', '$email', '$telefon', '$tarih', '$saat', '$klinik', '$doktor', '$mesaj_form')";
+
+    // Sorguyu çalıştır
+    if ($conn->query($sql) === TRUE) {
+        $mesaj = "Randevunuz Başarıyla Alınmıştır.Sağlıklı Günler Dileriz :)";
+        $mesaj_tipi = "basari";
+    } else {
+        $mesaj = "Hata: " . $sql . "<br>" . $conn->error;
+        $mesaj_tipi = "hata";
+    }
+
+    // Bağlantıyı kapat
+    $conn->close();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +69,7 @@
         </ul>
     </nav>
 </header>
+
 <body>
 <section class="randevu">
         <div class="randevu-container">
@@ -27,7 +78,7 @@
                 Çocuğunuzun diş sağlığı için randevu almak için aşağıdaki formu doldurun. Sizinle en kısa sürede iletişime geçeceğiz.
             </p>
 
-            <form action="randevu_al.php" method="POST">
+            <form action=" " method="POST">
                 <div class="form-grup">
                     <label for="ad">Adınız:</label>
                     <input type="text" id="ad" name="ad" required>
@@ -56,18 +107,33 @@
                     <label for="klinik">Klinik Seçin:</label>
                     <select id="klinik" name="klinik" required>
                         <option value="">Lütfen bir klinik seçin</option>
-                        <option value="Merkez Klinik">Merkez Klinik</option>
-                        <option value="Şube Klinik">Şube Klinik</option>
-                        <option value="Çocuk Diş Kliniği">Çocuk Diş Kliniği</option>
+                        <option value="İstanbul Merkez Klinik">İstanbul Merkez Klinik</option>
+                        <option value="Ankara Şube Klinik">Ankara Şube Klinik</option>
+                        <option value="İzmir Çocuk Diş Kliniği">İzmir Çocuk Diş Kliniği</option>
+                        <option value="Antalya Çocuk Diş Kliniği">Antalya Çocuk Diş Kliniği</option>
+                        <option value="Bodrum Merkez Klinik">Bodrum Merkez Klinik</option>
+                        <option value="Denizli Şube Klinik">Denizli Şube Klinik</option>
                     </select>
                 </div>
                 <div class="form-grup">
                     <label for="doktor">Doktor Seçin:</label>
                     <select id="doktor" name="doktor" required>
                         <option value="">Lütfen bir doktor seçin</option>
-                        <option value="Dr. Ayşe Demir">Dr. Ayşe Demir</option>
-                        <option value="Dr. Mehmet Kaya">Dr. Mehmet Kaya</option>
-                        <option value="Dr. Elif Yılmaz">Dr. Elif Yılmaz</option>
+                        <option value="Dr. Elif Koçyiğit">Dr. Elif Koçyiğit</option>
+                        <option value="Dr. Ayşe Gündoğan">Dr. Ayşe Gündoğan</option>
+                        <option value="Dr. Sema Özcan">Dr. Sema Özcan</option>
+                        <option value="Dr. Zeynep Işık">Dr. Zeynep Işık</option>
+                        <option value="Dr. Selin Akgün">Dr. Selin Akgün</option>
+                        <option value="Dr. Meltem Uysal">Dr. Meltem Uysal</option>
+                        <option value="Dr. Derya Kılıç">Dr. Derya Kılıç</option>
+                        <option value="Dr. Ceyda Erdem">Dr. Ceyda Erdem</option>
+                        <option value="Dr. Emre Kızılkaya">Dr. Emre Kızılkaya</option>
+                        <option value="Dr. Mehmet Altuntaş">Dr. Mehmet Altuntaş</option>
+                        <option value="Dr. Ahmet Sarıgül">Dr. Ahmet Sarıgül</option>
+                        <option value="Dr. Baran Kurtuluş">Dr. Baran Kurtuluş</option>
+                        <option value="Dr. Cem Yıldızhan">Dr. Cem Yıldızhan</option>
+                        <option value="Dr. Caner Karadağ">Dr. Caner Karadağ</option>
+                        <option value="Dr. Burak Demirci">Dr. Burak Demirci</option>
                     </select>
                 </div>
                 <div class="form-grup">
@@ -75,6 +141,12 @@
                     <textarea id="mesaj" name="mesaj" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn">Randevu Al</button>
+                <!-- Mesaj burada gösterilecek -->
+                <?php
+                if (!empty($mesaj)) {
+                    echo "<div class='mesaj $mesaj_tipi'>$mesaj</div>";
+                }
+                ?>
             </form>
         </div>
     </section>
