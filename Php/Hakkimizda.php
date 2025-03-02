@@ -15,7 +15,7 @@
             <li><a href="../Php/Tedavilerimiz.php">TEDAVİLER</a></li>
             <li><a href="../Php/Klinikler.php">KLİNİKLER</a></li>
             <li><a href="../Php/iletisim.php">İLETİŞİM</a></li>
-            <li><button class="onbutton">Online Randevu</button></li>
+            <li><a href="../Php/online.php" class="randevu-kutusu">Randevu</a></li>
         </ul>
     </nav>
 </header>
@@ -28,110 +28,67 @@
         </p>
 
         <div class="ekip">
-            <h3>Ekibimiz</h3>
+            <h1>Ekibimiz</h1>
             <div class="ekip-uyeleri">
             <div class="kart-container">
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 1">
-            <h3>Başlık 1</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/1.png" alt="Resim 1">
+            <h3>Emre KIZILKAYA</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 2">
-            <h3>Başlık 2</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/2.png" alt="Resim 2">
+            <h3>Mehmet ALTUNTAŞ</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 3">
-            <h3>Başlık 3</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/3.png" alt="Resim 3">
+            <h3>Ahmet SARIGÜL</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 4">
-            <h3>Başlık 4</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/4.png" alt="Resim 4">
+            <h3>Elif NUR KOÇYİĞİT</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 5">
-            <h3>Başlık 5</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/5.png" alt="Resim 5">
+            <h3>Baran KURTULUŞ</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
-        </div>
-    </div>
-</div>
-
-<div class="kart-container">
-    <div class="kart">
-        <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 1">
-            <h3>Başlık 1</h3>
-            <p>Bu bir açıklama metnidir.</p>
-        </div>
-        <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
-        </div>
-    </div>
-    <div class="kart">
-        <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 2">
-            <h3>Başlık 2</h3>
-            <p>Bu bir açıklama metnidir.</p>
-        </div>
-        <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
-        </div>
-    </div>
-    <div class="kart">
-        <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 3">
-            <h3>Başlık 3</h3>
-            <p>Bu bir açıklama metnidir.</p>
-        </div>
-        <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
-        </div>
-    </div>
-    <div class="kart">
-        <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 4">
-            <h3>Başlık 4</h3>
-            <p>Bu bir açıklama metnidir.</p>
-        </div>
-        <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
-        </div>
-    </div>
-    <div class="kart">
-        <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 5">
-            <h3>Başlık 5</h3>
-            <p>Bu bir açıklama metnidir.</p>
-        </div>
-        <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
 </div>
@@ -139,52 +96,125 @@
 <div class="kart-container">
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 1">
-            <h3>Başlık 1</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/6.png" alt="Resim 1">
+            <h3>Ayşem GÜNDOĞAN</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 2">
-            <h3>Başlık 2</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/7.png" alt="Resim 2">
+            <h3>Sema Eda ÖZCAN</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 3">
-            <h3>Başlık 3</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/8.png" alt="Resim 3">
+            <h3>Zeynep IŞIKOĞLU</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 4">
-            <h3>Başlık 4</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/9.png" alt="Resim 4">
+            <h3>Selin Naz AKGÜN</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
     <div class="kart">
         <div class="kart-on">
-            <img src="https://via.placeholder.com/150" alt="Resim 5">
-            <h3>Başlık 5</h3>
-            <p>Bu bir açıklama metnidir.</p>
+            <img src="../Resimler/KidsKarakter/10.png" alt="Resim 5">
+            <h3>Meltem UYSAL</h3>
+            <p>Pedodonti Uzmanı</p>
         </div>
         <div class="kart-arka">
-            <p>Arka taraf içeriği burada yer alır.</p>
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="kart-container">
+    <div class="kart">
+        <div class="kart-on">
+            <img src="../Resimler/KidsKarakter/11.png" alt="Resim 1">
+            <h3>Derya Yaren KILIÇ</h3>
+            <p>Pedodonti Uzmanı</p>
+        </div>
+        <div class="kart-arka">
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="../Resimler/KidsKarakter/12.png" alt="Resim 2">
+            <h3>Ceyda Eylül ERDEM</h3>
+            <p>Pedodonti Uzmanı</p>
+        </div>
+        <div class="kart-arka">
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="../Resimler/KidsKarakter/13.png" alt="Resim 3">
+            <h3>Caner KARADAĞ</h3>
+            <p>Pedodonti Uzmanı</p>
+        </div>
+        <div class="kart-arka">
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="../Resimler/KidsKarakter/14.png" alt="Resim 4">
+            <h3>Burak DEMİRCİ</h3>
+            <p>Pedodonti Uzmanı</p>
+        </div>
+        <div class="kart-arka">
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
+        </div>
+    </div>
+    <div class="kart">
+        <div class="kart-on">
+            <img src="../Resimler/KidsKarakter/15.png" alt="Resim 5">
+            <h3>Cem YILDIZHAN</h3>
+            <p>Pedodonti Uzmanı</p>
+        </div>
+        <div class="kart-arka">
+            <p>2005 yılında Diş Hekimliği Fakültesi’nden mezun olan ve 2007’de Çocuk Diş Hekimliği uzmanlık eğitimini tamamlayan hekim, 
+                çocuklarda diş sağlığı ve tedavi yöntemlerinde deneyime sahiptir. Özellikle diş teli, süt dişi dolguları ve diş travmaları tedavisinde uzmandır.
+            </p>
         </div>
     </div>
 </div>

@@ -66,33 +66,11 @@ body {
 
 /* Menüdeki bağlantıya hover efekti */
 .menu a:hover {
-    background: linear-gradient(to right,#f77676,#87d09b,#c1cfff,#f7e466,#bd76b8,#f77676) 50%;  /* Arka plan renk geçişi */
+    background: linear-gradient(to right,#f77676,#87d09b,#95acff,#f7e466,#bd76b8,#f77676) 50%;  /* Arka plan renk geçişi */
     -webkit-background-clip: text;  /* Arka planın metin üzerinde görünmesini sağlar */
     -webkit-text-fill-color: transparent;  /* Metni şeffaf yapar */
     transform: scale(1.5);  /* Metnin boyutunu büyütür */
-}
-
-/* Online randevu butonunun stil ayarları */
-.onbutton {
-    width: 220px;  /* Butonun genişliği */
-    height: 50px;  /* Butonun yüksekliği */
-    border: none;  /* Kenarlık kaldırılır */
-    outline: none;  /* Fokus kenarlığı kaldırılır */
-    color: #fff;  /* Yazı rengi */
-    background: #111;  /* Arka plan rengi */
-    cursor: pointer;  /* Fare imlecini el işareti yapar */
-    position: relative;  /* Konumlandırma yapılabilir */
-    z-index: 0;  /* Z-index ile sıralamayı etkiler */
-    border-radius: 10px;  /* Butona yuvarlatılmış köşeler ekler */
-}
-
-/* Online randevu butonuna hover efekti */
-.onbutton:hover {
-    background-image: linear-gradient(to right,#f77676,#87d09b,#c1cfff,#f7e466,#bd76b8,#f77676);  /* Buton arka planı geçişli renk efekti */
-    animation: slidebg 10s linear infinite;  /* Animasyon ekler */
-    transform: translateY(-5px);  /* Öne çıkarma */
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);  /* Daha belirgin bir gölge */
-    filter: brightness(1);
+    text-decoration: none;
 }
 
 /* Genel kutu modelini değiştiren stil */
@@ -103,6 +81,24 @@ body {
     max-width: 2000px;  /* Maksimum genişlik */
     position: relative;  /* Diğer öğelere göre konumlandırma yapılabilir */
 }
+
+/*Randevu Alma Kutusu*/
+
+.randevu-kutusu {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #f77676,#87d09b,#95acff,#f7e466,#bd76b8,#f77676);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Tüm slaytları gizler */
 .mySlides {
@@ -215,7 +211,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f77676;
+    background-color: #ff6f61;
     border: 2px solid #000;
     color: white;
     font-size: 20px;
@@ -525,7 +521,7 @@ footer {
     backface-visibility: hidden; /* Arka yüzü gizle */
     transition: transform 0.6s ease; /* Dönüş efekti */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -537,12 +533,11 @@ footer {
 /* Kartın ön yüzü */
 .kart-on {
     background-color: #ff6f61;
-    color: white;
 }
 
 /* Kartın arka yüzü */
 .kart-arka {
-    background-color: #269af2;
+    background-color: #95acff;
     color: white;
     transform: rotateY(180deg); /* Başlangıçta arka yüzü çevir */
 }
@@ -568,11 +563,13 @@ footer {
 .kart h3 {
     margin: 10px 0;
     font-size: 20px;
+    color: #fff;
 }
 
 /* Metin stil ayarları */
 .kart p {
     font-size: 14px;
+    color: #fff;
 }
 
 /* Hakkımızda bölümü stil ayarları */
@@ -606,8 +603,8 @@ footer {
     margin-bottom: 40px;
 }
 
-.ekip h3 {
-    font-size: 28px;
+.ekip h1 {
+    font-size: 40px;
     color: #ff6f61; /* Turuncu renk */
     margin-bottom: 20px;
 }
@@ -625,7 +622,7 @@ footer {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     width: 45%;
     max-width: 400px;
 }
@@ -647,7 +644,7 @@ footer {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     max-width: 800px;
     margin: 0 auto;
 }
@@ -747,7 +744,7 @@ footer {
 
 .karttedavi h3 {
     font-size: 24px;
-    color: black;
+    color: #ff6f61;
     margin-bottom: 15px;
 }
 
@@ -932,7 +929,7 @@ footer {
 
 .bilgi h3 {
     font-size: 20px;
-    color: #333;
+    color: #ff6f61;
     margin-bottom: 10px;
 }
 
@@ -954,7 +951,7 @@ footer {
 
 .iletisim-formu h3 {
     font-size: 24px;
-    color: #333;
+    color: #ff6f61;
     margin-bottom: 20px;
 }
 
@@ -1011,4 +1008,73 @@ footer {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
+}
+
+/*Online Randevu Sayfası*/
+/* Randevu bölümü stil ayarları */
+.randevu {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.randevu-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.randevu h2 {
+    font-size: 36px;
+    color: #ff6f61; /* Turuncu renk */
+    margin-bottom: 20px;
+}
+
+.randevu .aciklama {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Form stil ayarları */
+.form-grup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-grup label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-grup input, .form-grup textarea, .form-grup select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-grup textarea {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6f61; /* Turuncu renk */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: #e65a50; /* Koyu turuncu renk */
 }

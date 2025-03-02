@@ -15,7 +15,7 @@
             <li><a href="../Php/Tedavilerimiz.php">TEDAVİLER</a></li>
             <li><a href="../Php/Klinikler.php">KLİNİKLER</a></li>
             <li><a href="../Php/iletisim.php">İLETİŞİM</a></li>
-            <li><button class="onbutton">Online Randevu</button></li>
+            <li><a href="../Php/online.php" class="randevu-kutusu">Randevu</a></li>
         </ul>
     </nav>
 </header>
@@ -30,9 +30,9 @@
         <div class="klinik-listesi">
             <!-- Klinik 1 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 1">
+                <img src="../Resimler/16.jpg" alt="Klinik 1">
                 <div class="klinik-bilgileri">
-                    <h3>Merkez Klinik</h3>
+                    <h3>İstnabul Merkez Klinik</h3>
                     <p class="adres">
                         <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, İstanbul
                     </p>
@@ -48,9 +48,9 @@
 
             <!-- Klinik 2 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 2">
+                <img src="../Resimler/16.jpg" alt="Klinik 2">
                 <div class="klinik-bilgileri">
-                    <h3>Şube Klinik</h3>
+                    <h3>Ankara Şube Klinik</h3>
                     <p class="adres">
                         <i class="fas fa-map-marker-alt"></i> 5678 Çocuk Diş Sokak, Şube, Ankara
                     </p>
@@ -66,9 +66,9 @@
 
             <!-- Klinik 3 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 3">
+                <img src="../Resimler/16.jpg" alt="Klinik 3">
                 <div class="klinik-bilgileri">
-                    <h3>Çocuk Diş Kliniği</h3>
+                    <h3>İzmir Çocuk Diş Kliniği</h3>
                     <p class="adres">
                         <i class="fas fa-map-marker-alt"></i> 91011 Gülüş Sokak, Çocuk Diş, İzmir
                     </p>
@@ -84,11 +84,11 @@
 
             <!-- Klinik 1 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 1">
+                <img src="../Resimler/16.jpg" alt="Klinik 1">
                 <div class="klinik-bilgileri">
-                    <h3>Merkez Klinik</h3>
+                    <h3>Antalya Çocuk Diş Kliniği</h3>
                     <p class="adres">
-                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, İstanbul
+                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, Antalya
                     </p>
                     <p class="telefon">
                         <i class="fas fa-phone"></i> +90 123 456 78 90
@@ -102,11 +102,11 @@
 
             <!-- Klinik 1 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 1">
+                <img src="../Resimler/16.jpg" alt="Klinik 1">
                 <div class="klinik-bilgileri">
-                    <h3>Merkez Klinik</h3>
+                    <h3>Bodrum Merkez Klinik</h3>
                     <p class="adres">
-                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, İstanbul
+                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, Bodrum
                     </p>
                     <p class="telefon">
                         <i class="fas fa-phone"></i> +90 123 456 78 90
@@ -120,11 +120,11 @@
 
             <!-- Klinik 1 -->
             <div class="klinik">
-                <img src="https://via.placeholder.com/400x250" alt="Klinik 1">
+                <img src="../Resimler/16.jpg" alt="Klinik 1">
                 <div class="klinik-bilgileri">
-                    <h3>Merkez Klinik</h3>
+                    <h3>Denizli Şube Klinik</h3>
                     <p class="adres">
-                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, İstanbul
+                        <i class="fas fa-map-marker-alt"></i> 1234 Diş Sağlığı Sokak, Merkez, Denizli
                     </p>
                     <p class="telefon">
                         <i class="fas fa-phone"></i> +90 123 456 78 90

@@ -15,7 +15,7 @@
             <li><a href="../Php/Tedavilerimiz.php">TEDAVİLER</a></li>
             <li><a href="../Php/Klinikler.php">KLİNİKLER</a></li>
             <li><a href="../Php/iletisim.php">İLETİŞİM</a></li>
-            <li><button class="onbutton">Online Randevu</button></li>
+            <li><a href="../Php/online.php" class="randevu-kutusu">Randevu</a></li>
         </ul>
     </nav>
 </header>
@@ -25,20 +25,20 @@
 <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="../Resimler/slider1.jpg"style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="../Resimler/s1.png"style="width:100%">
+  <div class="text">Clinic</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="../Resimler/slider2.png" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="../Resimler/s2.jpg" style="width:100%">
+  <div class="text">Clinic Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="../Resimler/slider3.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="../Resimler/s3.png" style="width:100%">
+  <div class="text">Clinic Three</div>
 </div>
 
 <!-- Next and previous buttons -->

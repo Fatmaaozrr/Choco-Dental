@@ -15,7 +15,7 @@
             <li><a href="../Php/Tedavilerimiz.php">TEDAVİLER</a></li>
             <li><a href="../Php/Klinikler.php">KLİNİKLER</a></li>
             <li><a href="../Php/iletisim.php">İLETİŞİM</a></li>
-            <li><button class="onbutton">Online Randevu</button></li>
+            <li><a href="../Php/online.php" class="randevu-kutusu">Randevu</a></li>
         </ul>
     </nav>
 </header>
@@ -30,7 +30,7 @@
         <div class="tedavi-kartlari">
             <!-- Diş Çürüğü Önleme -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Çürüğü Önleme">
+                <img src="../Resimler/dentist.png" alt="Diş Çürüğü Önleme">
                 <h3>Diş Çürüğü Önleme</h3>
                 <p>
                     Fissür örtücü ve florür uygulamaları ile çocukların dişlerini çürüklerden koruyoruz.
@@ -44,7 +44,7 @@
 
             <!-- Süt Dişi Dolguları -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Süt Dişi Dolguları">
+                <img src="../Resimler/dentist.png" alt="Süt Dişi Dolguları">
                 <h3>Süt Dişi Dolguları</h3>
                 <p>
                     Çürüyen süt dişlerini, çocuklara özel dolgu malzemeleri ile tedavi ediyoruz.
@@ -58,7 +58,7 @@
 
             <!-- Çocuklarda Ortodonti -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Ortodonti">
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Ortodonti">
                 <h3>Çocuklarda Ortodonti</h3>
                 <p>
                     Erken yaşta ortodontik tedavi ile çene ve diş yapısını düzeltiyoruz.
@@ -72,7 +72,7 @@
 
             <!-- Diş Travmaları Tedavisi -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Travmaları Tedavisi">
+                <img src="../Resimler/dentist.png" alt="Diş Travmaları Tedavisi">
                 <h3>Diş Travmaları Tedavisi</h3>
                 <p>
                     Düşme veya kazalar sonucu zarar gören dişlerin acil tedavisini yapıyoruz.
@@ -86,8 +86,80 @@
 
             <!-- Çocuklarda Diş Beyazlatma -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Diş Beyazlatma">
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Diş Beyazlatma">
                 <h3>Çocuklarda Diş Beyazlatma</h3>
+                <p>
+                    Çocuklar için güvenli ve etkili diş beyazlatma yöntemleri sunuyoruz.
+                </p>
+                <ul>
+                    <li>Çocuklara özel formüller.</li>
+                    <li>Hızlı ve ağrısız işlem.</li>
+                    <li>Doğal bir gülüş sağlar.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tedavi-kartlari">
+            <!-- Kanal Tedavisi -->
+            <div class="karttedavi">
+                <img src="../Resimler/dentist.png" alt="Diş Çürüğü Önleme">
+                <h3>Kanal tedavisi (Süt Dişi Pulpotomisi)</h3>
+                <p>
+                    Fissür örtücü ve florür uygulamaları ile çocukların dişlerini çürüklerden koruyoruz.
+                </p>
+                <ul>
+                    <li>Çürük riskini azaltır.</li>
+                    <li>Ağrısız ve hızlı bir işlemdir.</li>
+                    <li>Uzun süreli koruma sağlar.</li>
+                </ul>
+            </div>
+
+            <!-- Diş taşı temizliği -->
+            <div class="karttedavi">
+                <img src="../Resimler/dentist.png" alt="Süt Dişi Dolguları">
+                <h3>Diş taşı temizliği (Tartar Temizliği)</h3>
+                <p>
+                    Çürüyen süt dişlerini, çocuklara özel dolgu malzemeleri ile tedavi ediyoruz.
+                </p>
+                <ul>
+                    <li>Doğal diş yapısını korur.</li>
+                    <li>Çocuklar için güvenlidir.</li>
+                    <li>Renkli dolgu seçenekleri mevcuttur.</li>
+                </ul>
+            </div>
+
+            <!-- Diş travması tedavisi -->
+            <div class="karttedavi">
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Ortodonti">
+                <h3>Diş Travması Tedavisi</h3>
+                <p>
+                    Erken yaşta ortodontik tedavi ile çene ve diş yapısını düzeltiyoruz.
+                </p>
+                <ul>
+                    <li>Erken müdahale ile sorunları önler.</li>
+                    <li>Renkli ve eğlenceli apareyler kullanılır.</li>
+                    <li>Uzun vadeli sağlık sağlar.</li>
+                </ul>
+            </div>
+
+            <!-- Bruksizm (diş gıcırdatma) tedavisi -->
+            <div class="karttedavi">
+                <img src="../Resimler/dentist.png" alt="Diş Travmaları Tedavisi">
+                <h3>Bruksizm (Diş Gıcırdatma) Tedavisi</h3>
+                <p>
+                    Düşme veya kazalar sonucu zarar gören dişlerin acil tedavisini yapıyoruz.
+                </p>
+                <ul>
+                    <li>Acil müdahale imkanı.</li>
+                    <li>Çocuklar için özel yaklaşım.</li>
+                    <li>Dişin kurtarılması önceliklidir.</li>
+                </ul>
+            </div>
+
+            <!-- Yer tutucu (geçici apareyler) -->
+            <div class="karttedavi">
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Diş Beyazlatma">
+                <h3>Yer Tutucu (Geçici Apareyler)a</h3>
                 <p>
                     Çocuklar için güvenli ve etkili diş beyazlatma yöntemleri sunuyoruz.
                 </p>
@@ -102,7 +174,7 @@
         <div class="tedavi-kartlari">
             <!-- Diş Çürüğü Önleme -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Çürüğü Önleme">
+                <img src="../Resimler/dentist.png" alt="Diş Çürüğü Önleme">
                 <h3>Diş Çürüğü Önleme</h3>
                 <p>
                     Fissür örtücü ve florür uygulamaları ile çocukların dişlerini çürüklerden koruyoruz.
@@ -114,10 +186,10 @@
                 </ul>
             </div>
 
-            <!-- Süt Dişi Dolguları -->
+            <!-- Diş çekimi -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Süt Dişi Dolguları">
-                <h3>Süt Dişi Dolguları</h3>
+                <img src="../Resimler/dentist.png" alt="Süt Dişi Dolguları">
+                <h3>Diş Çekimi</h3>
                 <p>
                     Çürüyen süt dişlerini, çocuklara özel dolgu malzemeleri ile tedavi ediyoruz.
                 </p>
@@ -128,10 +200,10 @@
                 </ul>
             </div>
 
-            <!-- Çocuklarda Ortodonti -->
+            <!-- Diş cilalama -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Ortodonti">
-                <h3>Çocuklarda Ortodonti</h3>
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Ortodonti">
+                <h3>Diş Cilalama</h3>
                 <p>
                     Erken yaşta ortodontik tedavi ile çene ve diş yapısını düzeltiyoruz.
                 </p>
@@ -142,10 +214,10 @@
                 </ul>
             </div>
 
-            <!-- Diş Travmaları Tedavisi -->
+            <!-- Florür Uygulaması -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Travmaları Tedavisi">
-                <h3>Diş Travmaları Tedavisi</h3>
+                <img src="../Resimler/dentist.png" alt="Diş Travmaları Tedavisi">
+                <h3>Florür Uygulaması</h3>
                 <p>
                     Düşme veya kazalar sonucu zarar gören dişlerin acil tedavisini yapıyoruz.
                 </p>
@@ -156,82 +228,10 @@
                 </ul>
             </div>
 
-            <!-- Çocuklarda Diş Beyazlatma -->
+            <!-- Diş Minesi Koruyucu Tedavi -->
             <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Diş Beyazlatma">
-                <h3>Çocuklarda Diş Beyazlatma</h3>
-                <p>
-                    Çocuklar için güvenli ve etkili diş beyazlatma yöntemleri sunuyoruz.
-                </p>
-                <ul>
-                    <li>Çocuklara özel formüller.</li>
-                    <li>Hızlı ve ağrısız işlem.</li>
-                    <li>Doğal bir gülüş sağlar.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="tedavi-kartlari">
-            <!-- Diş Çürüğü Önleme -->
-            <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Çürüğü Önleme">
-                <h3>Diş Çürüğü Önleme</h3>
-                <p>
-                    Fissür örtücü ve florür uygulamaları ile çocukların dişlerini çürüklerden koruyoruz.
-                </p>
-                <ul>
-                    <li>Çürük riskini azaltır.</li>
-                    <li>Ağrısız ve hızlı bir işlemdir.</li>
-                    <li>Uzun süreli koruma sağlar.</li>
-                </ul>
-            </div>
-
-            <!-- Süt Dişi Dolguları -->
-            <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Süt Dişi Dolguları">
-                <h3>Süt Dişi Dolguları</h3>
-                <p>
-                    Çürüyen süt dişlerini, çocuklara özel dolgu malzemeleri ile tedavi ediyoruz.
-                </p>
-                <ul>
-                    <li>Doğal diş yapısını korur.</li>
-                    <li>Çocuklar için güvenlidir.</li>
-                    <li>Renkli dolgu seçenekleri mevcuttur.</li>
-                </ul>
-            </div>
-
-            <!-- Çocuklarda Ortodonti -->
-            <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Ortodonti">
-                <h3>Çocuklarda Ortodonti</h3>
-                <p>
-                    Erken yaşta ortodontik tedavi ile çene ve diş yapısını düzeltiyoruz.
-                </p>
-                <ul>
-                    <li>Erken müdahale ile sorunları önler.</li>
-                    <li>Renkli ve eğlenceli apareyler kullanılır.</li>
-                    <li>Uzun vadeli sağlık sağlar.</li>
-                </ul>
-            </div>
-
-            <!-- Diş Travmaları Tedavisi -->
-            <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Diş Travmaları Tedavisi">
-                <h3>Diş Travmaları Tedavisi</h3>
-                <p>
-                    Düşme veya kazalar sonucu zarar gören dişlerin acil tedavisini yapıyoruz.
-                </p>
-                <ul>
-                    <li>Acil müdahale imkanı.</li>
-                    <li>Çocuklar için özel yaklaşım.</li>
-                    <li>Dişin kurtarılması önceliklidir.</li>
-                </ul>
-            </div>
-
-            <!-- Çocuklarda Diş Beyazlatma -->
-            <div class="karttedavi">
-                <img src="https://via.placeholder.com/150" alt="Çocuklarda Diş Beyazlatma">
-                <h3>Çocuklarda Diş Beyazlatma</h3>
+                <img src="../Resimler/dentist.png" alt="Çocuklarda Diş Beyazlatma">
+                <h3>Diş Minesi Koruyucu Tedavi</h3>
                 <p>
                     Çocuklar için güvenli ve etkili diş beyazlatma yöntemleri sunuyoruz.
                 </p>
